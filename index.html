@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta
+      name="viewport"
+      width="device-width,"
+      initial-scale="1.0,"
+      maximum-scale="1.0,"
+      user-scalable="0"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.4/lottie.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body style="overflow: hidden; margin: 0; padding: 0">
+    <canvas id="fireworksCanvas"></canvas>
+    <div class="container">
+      <div class="wishes">
+        <h1 id="title">Kalpesh Enterprises</h1>
+        <h1 class="animate__animated animate__jackInTheBox greeting">
+          wishes you a Prosporus New Year
+        </h1>
+      </div>
+      <div id="icon-container"></div>
+      <a class="website-btn" href="https://kalpeshenterprises.com/"
+        >Visit Our Website</a
+      >
+    </div>
+    <script>
+      var animation = bodymovin.loadAnimation({
+        // animationData: { /* ... */ },
+        container: document.getElementById("icon-container"), // required
+        path: "https://lottie.host/9fbd547d-441f-4806-91c2-23dd4b3de5f0/NsAWPZ7BDy.json", // required
+        renderer: "svg", // required
+        loop: true, // optional
+        autoplay: true, // optional
+        name: "Demo Animation", // optional
+      });
+    </script>
+    <script src="fire-works.js"></script>
+  </body>
+</html>

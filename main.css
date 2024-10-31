@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    top: 20%;
+    height: 80%;
+    left: 0;
+    width: 100%;
+}
+#icon-container {
+    height: 70%;
+}
+
+.greeting {
+    font-family: "Akaya Telivigala", system-ui;
+    color: #1a3d6d;
+    font-size: 70px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.wishes {
+    position: absolute;
+    top: 5%;
+    text-align: center;
+}
+
+#title {
+    margin: 0px;
+    font-size: 80px;
+    width: 100%;
+    text-align: center;
+    color: #FF4500;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+}
+
+.website-btn {
+    background: #010035;
+    width: fit-content;
+    color: white;
+    padding: 12px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 30px;
+}
